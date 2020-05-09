@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bella Estética</title>
+
+    <style>
+        body{
+	margin:0;
+	font-family:"trebuchet ms";
+}
+
+#total{
+	width:960px;
+	height:auto;
+	margin:auto;
+}
+
+#topo{
+	width:960px;
+	height:35px;
+	background-color:#422D71;
+	float:left;	
+}
+
+#logo{
+	width:144px;
+	height:182px;
+	position:relative;
+	top:0;
+	left:0;
+	
+	display:inline; /*float:left*/
+}
+
+#menu{
+	float:right;	
+	/*padding-top:6px;*/
+	line-height:35px; /*mesma altura do topo (35px)*/
+}
+
+#menu a{
+	color:#FFF;
+	font-size:14px;
+	text-decoration:none;
+	margin-right:50px;	
+}
+
+#menu a:hover{
+	text-decoration:underline;	
+}
+
+#banner{
+	width:960px;
+	height:300px;
+
+	float:left;
+	border-bottom:1px solid #BBA6E7;
+}
+
+#conteudo{
+	width:960px;
+	min-height:100px;
+	background-color:#CCC;
+	float:left;	
+}
+
+#box1, #box2, #box3{
+	width:280px;
+	min-height:100px;
+	background-color:#666;
+	float:left;	
+}
+
+#box2{
+	margin-left:60px;
+	margin-right:60px;	
+}
+
+#rodape{
+	width:960px;
+	height:35px;
+	background-color:#E6DEF5;
+	float:left;	
+}
+body{
+margin: 0;
+padding: 0;
+}
+
+form{
+font-size: 22px;
+background: rgb(187, 166, 231);
+max-width: 500px;
+margin: 0 auto;
+padding: 0 450px 10px 10px;
+
+}
+
+h1{
+color: rgb(66, 45, 113)
+}
+
+input, textarea{
+width: 700px;
+padding: 10px;
+}
+
+.enviar input {
+background-color: rgb(66, 45, 113);
+height: 40px;
+width: 300px;
+font-weight: bold;
+border-radius: 5px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 5px;
+border: 1px solid;
+color: #FFF;
+cursor: pointer;
+}
+
+.enviar input:hover{
+background: #078;
+}
+
+textarea {
+width: 700px;
+height: 120px;
+line-height: 20px;
+}
+#roda {
+	position: absolute;
+	left: 250px;
+	bottom:-5px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#rodape{
+	width:960px;
+	height:35px;
+	background-color:rgb(66, 45, 113);
+	position: absolute;
+	bottom: -240px;
+	left: 195px;
+}
+
+    </style>
+
+</head>
+
+<body>
+	
+    <div id="total">
+    
+    	<div id="topo">
+        	
+            <div id="logo">
+            	<img src="../img/logo.png" alt="logotipo" />
+            </div>
+        
+        	<div id="menu">
+            	<a href="#">HOME</a>
+                <a href="#">QUEM SOMOS</a>
+                <a href="#">SERVIÇOS</a>
+                <a href="#">LOCALIZAÇÃO</a>
+                <a href="#">CONTATO</a>
+        
+                
+                
+            </div>
+        
+        </div>
+        
+        <div id="banner">
+			<img src="../img/banner.jpg" alt="banner do site" />
+		</div>
+		
+
+<body>
+
+
+<form name="formteste" action="" method="post">
+
+<h1>Contato</h1>
+
+<p class="nome">
+ <input type="text" name="nome" placeholder="informe seu nome" required="required">
+ </p>
+
+<p class="email">
+ <input type="email" name="email" placeholder="informe seu email" required="required">
+ </p>
+
+<p class="assunto">
+ <input type="text" name="assunto" placeholder="informe o assunto" required="required">
+ </p>
+
+<p class="mensagem">
+ <textarea name="mensagem" placeholder="deixe sua mensagem"></textarea>
+ </p>
+
+<p class="enviar">
+ <input type="submit" name="enviar" value="Enviar">
+ </p>
+
+</form>
+
+</body>
+<div id="rodape">
+	<p id="roda"> BELLA ESTÉTICA - TODOS OS DIREITOS RESERVADOS </p>
+</div>
+    </body>
+    </html>
